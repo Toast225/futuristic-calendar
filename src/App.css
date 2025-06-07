@@ -1,0 +1,74 @@
+.calendar-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  color: #222;
+}
+
+.title {
+  text-align: center;
+  color: #FF6B00;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.weekdays, .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+
+.weekday {
+  font-weight: bold;
+  text-align: center;
+  color: #004085;
+}
+
+.day {
+  height: 80px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.day .date {
+  font-weight: bold;
+  color: #333;
+}
+
+.day.holiday {
+  background-color: #ffe5b4;
+  border: 2px solid #ff6b00;
+}
+
+.holiday-name {
+  font-size: 0.75rem;
+  color: #d35400;
+  margin-top: 4px;
+}
