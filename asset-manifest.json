@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/futuristic-calendar/static/css/main.2c1d618d.css",
+    "main.js": "/futuristic-calendar/static/js/main.80e5de91.js",
+    "static/js/453.4f9a3434.chunk.js": "/futuristic-calendar/static/js/453.4f9a3434.chunk.js",
+    "index.html": "/futuristic-calendar/index.html",
+    "main.2c1d618d.css.map": "/futuristic-calendar/static/css/main.2c1d618d.css.map",
+    "main.80e5de91.js.map": "/futuristic-calendar/static/js/main.80e5de91.js.map",
+    "453.4f9a3434.chunk.js.map": "/futuristic-calendar/static/js/453.4f9a3434.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c1d618d.css",
+    "static/js/main.80e5de91.js"
+  ]
+}
